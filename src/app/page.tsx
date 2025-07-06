@@ -6,7 +6,7 @@ import TeamCollab from './dashboard/components/TeamCollab';
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-gray-100 p-6">
       <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
 
       <ProjectCards />

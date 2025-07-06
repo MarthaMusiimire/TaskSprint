@@ -14,7 +14,7 @@ const data = [
 
 export default function ProjectAnalytics() {
   return (
-    <div className="bg-white p-4 border rounded-md shadow-md w-[540px]">
+    <div className="bg-white p-4 rounded-lg shadow-xl w-[540px]">
       <h3 className="text-base font-semibold mb-4">Weekly Project Activity</h3>
       <BarChart width={450} height={250} data={data}>
         <XAxis dataKey="day" />

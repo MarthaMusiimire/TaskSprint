@@ -7,10 +7,10 @@ export default function TeamCollab() {
   ];
 
   return (
-    <div className="bg-white p-4 border rounded-md shadow-md w-full">
+    <div className="bg-white p-4 rounded-lg shadow-xl w-full">
       <div className="flex justify-between items-center mb-3">
         <h3 className="text-base font-semibold">Team</h3>
-        <button className="bg-green-600 text-white text-sm px-3 py-1 rounded hover:bg-green-800">
+        <button className="bg-green-700 text-white text-sm px-3 py-1 rounded hover:bg-green-900">
             + Add Member
         </button>
       </div>
